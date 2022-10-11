@@ -1,0 +1,31 @@
+.btns-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btns-container button {
+  padding: 5px 25px;
+}
+
+.checkbox-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+}
+
+.checkbox-item {
+  display: flex;
+  min-width: 150px;
+  justify-content: space-between;
+}
+.checkbox {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkbox-item .delete {
+  padding: 3px 15px;
+}

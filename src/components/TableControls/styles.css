@@ -1,0 +1,29 @@
+.table-controls {
+  height: 0;
+  display: none;
+}
+
+.table_controls button {
+  height: 28px;
+  padding: 5px 16px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.table-controls.open {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-block-end: 1rem;
+  gap: 5rem;
+}
+
+@media (max-width: 768px) {
+  .table-controls.open {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}

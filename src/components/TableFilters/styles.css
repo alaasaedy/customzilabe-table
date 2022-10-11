@@ -1,0 +1,13 @@
+.table_filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.table_filters input {
+  height: 28px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding-inline-start: 7px;
+}
